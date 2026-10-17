@@ -1,0 +1,39 @@
+drug_a,drug_b,expected,nhom,nguon_tra_cuu,da_xac_nhan,ghi_chu
+Aspirin,Ibuprofen,yes,trong_csdl,Drugs.com Interaction Checker,,Kiểm tra hồi quy: cặp có sẵn trong CSDL
+Aspirin,Warfarin,yes,trong_csdl,Drugs.com Interaction Checker,,Kiểm tra hồi quy
+Warfarin,Amiodarone,yes,trong_csdl,Drugs.com Interaction Checker,,Kiểm tra hồi quy
+Digoxin,Furosemide,yes,trong_csdl,Drugs.com Interaction Checker,,Kiểm tra hồi quy
+Simvastatin,Amiodarone,yes,trong_csdl,Drugs.com Interaction Checker,,Kiểm tra hồi quy
+Losartan,Spironolactone,yes,trong_csdl,Drugs.com Interaction Checker,,Kiểm tra hồi quy
+Clopidogrel,Omeprazole,yes,trong_csdl,Drugs.com Interaction Checker,,Kiểm tra hồi quy
+Metformin,Cimetidine,yes,trong_csdl,Drugs.com Interaction Checker,,Kiểm tra hồi quy
+Warfarin,Clarithromycin,yes,thuoc_co_trong_csdl_cap_chua_co,Drugs.com Interaction Checker,,Cả hai thuốc app nhận diện nhưng cặp này chưa được nạp
+Clopidogrel,Warfarin,yes,thuoc_co_trong_csdl_cap_chua_co,Drugs.com Interaction Checker,,Nguy cơ chảy máu
+Digoxin,Spironolactone,yes,thuoc_co_trong_csdl_cap_chua_co,Drugs.com Interaction Checker,,
+Digoxin,Clarithromycin,yes,thuoc_co_trong_csdl_cap_chua_co,Drugs.com Interaction Checker,,
+Ibuprofen,Spironolactone,yes,thuoc_co_trong_csdl_cap_chua_co,Drugs.com Interaction Checker,,
+Enalapril,Spironolactone,yes,thuoc_co_trong_csdl_cap_chua_co,Drugs.com Interaction Checker,,Nguy cơ tăng kali máu
+Aspirin,Furosemide,yes,thuoc_co_trong_csdl_cap_chua_co,Drugs.com Interaction Checker,,Mức độ thấp hơn; cần xác nhận kỹ
+Warfarin,Fluconazole,yes,ngoai_csdl,Drugs.com Interaction Checker,,
+Warfarin,Ciprofloxacin,yes,ngoai_csdl,Drugs.com Interaction Checker,,
+Simvastatin,Amlodipine,yes,ngoai_csdl,Drugs.com Interaction Checker,,Có giới hạn liều simvastatin
+Atorvastatin,Clarithromycin,yes,ngoai_csdl,Drugs.com Interaction Checker,,
+Ibuprofen,Prednisolone,yes,ngoai_csdl,Drugs.com Interaction Checker,,CSDL chỉ có nhóm "Corticoid", không ánh xạ được tên hoạt chất
+Methotrexate,Trimethoprim,yes,ngoai_csdl,Drugs.com Interaction Checker,,
+Aspirin,Methotrexate,yes,ngoai_csdl,Drugs.com Interaction Checker,,
+Sildenafil,Nitroglycerin,yes,ngoai_csdl,Drugs.com Interaction Checker,,Chống chỉ định phối hợp
+Tramadol,Fluoxetine,yes,ngoai_csdl,Drugs.com Interaction Checker,,Nguy cơ hội chứng serotonin
+Ciprofloxacin,Calcium carbonate,yes,ngoai_csdl,Drugs.com Interaction Checker,,Giảm hấp thu; cần uống cách giờ
+Levothyroxine,Calcium carbonate,yes,ngoai_csdl,Drugs.com Interaction Checker,,Giảm hấp thu
+Lisinopril,Spironolactone,yes,ngoai_csdl,Drugs.com Interaction Checker,,Nguy cơ tăng kali máu
+Spironolactone,Potassium chloride,yes,ngoai_csdl,Drugs.com Interaction Checker,,
+Paracetamol,Omeprazole,no,am_tinh,Drugs.com Interaction Checker,,
+Paracetamol,Amoxicillin,no,am_tinh,Drugs.com Interaction Checker,,
+Paracetamol,Cetirizine,no,am_tinh,Drugs.com Interaction Checker,,
+Omeprazole,Cetirizine,no,am_tinh,Drugs.com Interaction Checker,,
+Amlodipine,Losartan,no,am_tinh,Drugs.com Interaction Checker,,Thường phối hợp trong thực tế
+Paracetamol,Loratadine,no,am_tinh,Drugs.com Interaction Checker,,
+Amoxicillin,Omeprazole,no,am_tinh,Drugs.com Interaction Checker,,
+Atorvastatin,Paracetamol,no,am_tinh,Drugs.com Interaction Checker,,
+Metformin,Losartan,no,am_tinh,Drugs.com Interaction Checker,,
+Amoxicillin,Aspirin,no,am_tinh,Drugs.com Interaction Checker,,Cặp dùng để thử giao diện "chưa kiểm tra được"
